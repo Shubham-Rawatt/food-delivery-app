@@ -5,7 +5,7 @@ import Nav from '../../components/Navbar/nav'
 const Home = () => {
   return (
 
-        <div>
+        <div className='border-t-slate-200 w-full min-h-screen'>
             <Nav/>
 
         </div>
