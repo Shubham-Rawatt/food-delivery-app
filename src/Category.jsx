@@ -1,43 +1,47 @@
+import { IoMdMenu } from "react-icons/io";
+
+
+ 
 export const categories = [
 
     {
         id:1,
         name : 'All',
-        image : 'image'
+        image : <IoMdMenu />
     } ,
 
         {
         id:1,
-        name : 'All',
-        image : 'image'
+        name : 'Breakfast',
+        image :<IoMdMenu />
     },
 
         {
         id:1,
-        name : 'All',
-        image : 'image'
+        name : 'Soup',
+        image : <IoMdMenu />
     },
 
         {
         id:1,
-        name : 'All',
-        image : 'image'
+        name : 'Pasta',
+        image : <IoMdMenu />
     },
 
         {
         id:1,
-        name : 'All',
-        image : 'image'
+        name : 'Main Course',
+        image : <IoMdMenu />
     },
         {
         id:1,
-        name : 'All',
-        image : 'image'
+        name : 'Pizza',
+        image : <IoMdMenu />
     },
         {
         id:1,
-        name : 'All',
-        image : 'image'
+        name : 'Burger',
+        image : <IoMdMenu />
     }
 
 
