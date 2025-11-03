@@ -1,48 +1,52 @@
 import { IoMdMenu } from "react-icons/io";
-
-
+import { MdFreeBreakfast, MdOutlineFoodBank } from "react-icons/md";
+import { LuSoup } from "react-icons/lu";
+import { CiBowlNoodles } from "react-icons/ci";
+import { GiFullPizza, GiHamburger } from "react-icons/gi";
  
-export const categories = [
+ const Categories = [
 
     {
         id:1,
         name : 'All',
-        image : <IoMdMenu />
+        image : <IoMdMenu className="w-15 h-15 text-green-500"/>
     } ,
 
         {
-        id:1,
+        id:2,
         name : 'Breakfast',
-        image :<IoMdMenu />
+        image :<MdFreeBreakfast className="w-15 h-15 text-green-500"/>
     },
 
         {
-        id:1,
+        id:3,
         name : 'Soup',
-        image : <IoMdMenu />
+        image :  <LuSoup className=" h-15 text-green-500 w-15"/>
     },
 
         {
-        id:1,
+        id:4,
         name : 'Pasta',
-        image : <IoMdMenu />
+        image : <CiBowlNoodles className="w-15 h-15 text-green-500"/>
     },
 
         {
-        id:1,
+        id:5,
         name : 'Main Course',
-        image : <IoMdMenu />
+        image : <MdOutlineFoodBank className="w-15 h-15 text-green-500"/>
     },
         {
-        id:1,
+        id:6,
         name : 'Pizza',
-        image : <IoMdMenu />
+        image : <GiFullPizza className="w-15 h-15 text-green-500"/>
     },
         {
-        id:1,
+        id:7,
         name : 'Burger',
-        image : <IoMdMenu />
-    }
+        image : <GiHamburger  className="w-15 h-15 text-green-500"/>
+    },
 
 
 ]
+
+  export default Categories
