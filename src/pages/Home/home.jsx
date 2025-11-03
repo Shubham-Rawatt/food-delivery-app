@@ -6,7 +6,7 @@ import  Categories  from '../../Category'
 const Home = () => {
   return (
 <>
-        <div className='border-t-slate-200 w-full min-h-screen'>
+        <div className='border-t-slate-300 w-full min-h-screen'>
             <Nav/>
            <div className="flex flex-wrap justify-center items-center w-full gap-6">
             {
